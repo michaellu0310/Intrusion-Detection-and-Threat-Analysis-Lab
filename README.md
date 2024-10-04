@@ -59,17 +59,17 @@ On a separate instance on the Ubuntu machine we use ```sudo snort -q -l /var/log
 
 ### Challenges & Solutions
 
-**Challenge 1:** Kali Linux did not have the proper tools to download anything on terminal such as installing metasploit.\
-**Solution 1:** Kali Linux needed to install the debian package to get started for this project.
+**Challenge #1:** Kali Linux did not have the proper tools to download anything on terminal such as installing metasploit.\
+**Solution #1:** Kali Linux needed to install the debian package to get started for this project.
 
-**Challenge 2:** When running ```sudo snort -T -i enp0s3 -c /etc/snort/snort.conf``` it said ```ERROR: /etc/snort/snort.conf(280) Unknown rule type: et. Fatal Error. Quitting..```\
-**Solution 2:** Going back into snort.conf using vim and removing the extra typo lines when trying to exit vim
+**Challenge #2:** When running ```sudo snort -T -i enp0s3 -c /etc/snort/snort.conf``` it said ```ERROR: /etc/snort/snort.conf(280) Unknown rule type: et. Fatal Error. Quitting..```\
+**Solution #2:** Going back into snort.conf using vim and removing the extra typo lines when trying to exit vim.
 
-**Challenge 3:** VMs utilizing same IP so I cannot ping to test snort\
-**Solution 3:** In VirtualBox, set each VM network setting to be Host-Only Ethernet Adapter
+**Challenge #3:** VMs utilizing same IP so I cannot ping to test snort.\
+**Solution #3:** In VirtualBox, set each VM network setting to be Host-Only Ethernet Adapter.
 
-**Challenge 4:** With the new IP Addresses both VMs refuses to talk to each other\
-**Solution 4:** In VirtualBox, create and set NAT Network for both machines
+**Challenge #4:** With the new IP Addresses both VMs refuses to talk to each other\
+**Solution #4:** In VirtualBox, create and set NAT Network for both machines.
 
-**Challenge 5:** Finding var folder for snort logs\
-**Solution 5:** Press CTRL+H in file explorer to show hidden folders
+**Challenge #5:** Finding var folder for snort logs\
+**Solution #5:** Press CTRL+H in file explorer to show hidden folders.
