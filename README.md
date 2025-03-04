@@ -4,11 +4,11 @@ This lab was made from scratch to simulate a real-world network attack focusing 
 
 The lab will involve creating two virtual machines: one running Kali Linux (acting as the attacker) and the other running Ubuntu (serving as the victim and network analyzer). The Kali Linux machine will utilize a backdoor [Metasploit](https://www.metasploit.com/) method to attempt exploit, while the Ubuntu machine will employ [Snort](https://www.snort.org/) as an IDS/IPS and logging solution, and [Wireshark](https://www.wireshark.org/) as a network analyzer.
 
-Intrusion Detection & Prevention (Snort - IDS/IPS Rule Configuration, Network Traffic Monitoring)
-Network Traffic Analysis (Wireshark - Packet Capture & Inspection, Protocol Analysis)
-Penetration Testing & Exploitation (Metasploit - Attack Simulation, Exploit Execution, Vulnerability Assessment)
-System Administration & Security (Ubuntu Server, Kali Linux, Virtual Machine Management, Network Configuration)
-Threat Detection & Incident Response (Log Analysis, Alert Generation, Attack Investigation)
+- Intrusion Detection & Prevention (Snort - IDS/IPS Rule Configuration, Network Traffic Monitoring)
+- Network Traffic Analysis (Wireshark - Packet Capture & Inspection, Protocol Analysis)
+- Penetration Testing & Exploitation (Metasploit - Attack Simulation, Exploit Execution, Vulnerability Assessment)
+- System Administration & Security (Ubuntu Server, Kali Linux, Virtual Machine Management, Network Configuration)
+- Threat Detection & Incident Response (Log Analysis, Alert Generation, Attack Investigation)
 
 #
 
