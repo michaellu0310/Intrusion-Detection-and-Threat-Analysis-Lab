@@ -79,10 +79,10 @@ On a separate instance on the Ubuntu machine we use ```sudo snort -q -l /var/log
 
 #
 
-**Challenge #4:** With the new IP Addresses, both VMs refuses to talk to each other\
+**Challenge #4:** With the new IP Addresses, both VMs refuses to talk to each other.\
 **Solution #4:** In VirtualBox, create and set NAT Network for both machines.
 
 #
 
-**Challenge #5:** Finding var folder for snort logs\
+**Challenge #5:** Finding var folder for snort logs.\
 **Solution #5:** Press CTRL+H in file explorer to show hidden folders.
